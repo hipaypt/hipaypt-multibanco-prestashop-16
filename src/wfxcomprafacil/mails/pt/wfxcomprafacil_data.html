@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{shop_name}</title>
+</head>
+<body>
+<table style="font-family: Verdana,sans-serif; font-size: 11px; color: #374953; width: 550px;" align="center">
+<tbody>
+<tr>
+<td align="left"><a title="{shop_name}" href="{shop_url}"><img style="border: none;" src="{shop_logo}" alt="{shop_name}" /></a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">Ol&aacute; <strong style="color: #313131;">{firstname} {lastname}</strong>,</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="background-color: #ddd; color: #000; font-size: 12px; font-weight: bold; padding: 0.5em 1em;" align="left">A sua Encomenda {order_name} - A aguardar pagamento por multibanco</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">Obrigado por ter feito compras na loja {shop_name}!<br /><br /> A sua Encomenda {order_name} foi gravada com sucesso e ser&aacute; <strong>enviada logo que recebamos o seu pagamento</strong>.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">Escolheu pagar por multibanco.<br /><br />Aqui est&atilde;o os detalhes para realizar o pagamento multibanco: <br /><br /> 
+
+
+		<table border="1" cellpadding="15" cellspacing="0" style="border:1px solid #ccc;">
+			<tr>
+				<td>
+					<img src="{multibanco_path}" width="55" alt="MB" border="0" />
+				</td>
+				<td align="left" valign="top">
+					<strong>Entidade:</strong> {entity} <br /><br /><strong>Referencia:</strong> {reference} <br /><br /><strong>Valor:</strong> {value} <br />	
+				</td>
+			</tr>
+		</table>
+
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">Pode rever a sua Encomenda e realizar a descarga (download) da sua Fatura na sec&ccedil;&atilde;o <a style="color: #313131; font-weight: bold; text-decoration: none;" href="{shop_url}history.php">"Hist&oacute;rico de Encomendas"</a> a partir da sua Conta Cliente (clicar em <a style="color: #313131; font-weight: bold; text-decoration: none;" href="{shop_url}my-account.php">"Minha Conta"</a> na nossa loja).<br /><br /></td>
+</tr>
+<tr>
+<td align="left">Se possui ainda uma Conta de Visitante, pode seguir a sua Encomenda usando a sec&ccedil;&atilde;o <a style="color: #313131; font-weight: bold; text-decoration: none;" href="{shop_url}guest-tracking.php">"Acompanhamento de Visitante"</a> na nossa loja.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="font-size: 10px; border-top: 1px solid #D9DADE;" align="center"><a style="color: #313131; font-weight: bold; text-decoration: none;" href="{shop_url}">{shop_name}</a> powered by <a style="text-decoration: none; color: #374953;" href="http://www.prestashop.com/">PrestaShop&trade;</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

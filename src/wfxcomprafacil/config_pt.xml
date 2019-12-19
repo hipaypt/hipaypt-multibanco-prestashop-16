@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wfxcomprafacil</name>
+	<displayName><![CDATA[Hipay Multibanco]]></displayName>
+	<version><![CDATA[1.0.1]]></version>
+	<description><![CDATA[Pagamento com Refer&ecirc;ncias Multibanco, pagas em ATM ou Homebanking.]]></description>
+	<author><![CDATA[Hi-pay Portugal]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Deseja desinstalar o m&oacute;dulo de Pagamento por Multibanco?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

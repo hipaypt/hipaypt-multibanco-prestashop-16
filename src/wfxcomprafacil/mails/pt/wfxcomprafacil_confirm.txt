@@ -1,0 +1,5 @@
+A encomenda #{order_name} foi paga remotamente.
+
+{shop_name} - {shop_url}
+
+{shop_url} powered by PrestaShop™
